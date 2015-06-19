@@ -1,5 +1,4 @@
-import smtplib
-server = smtplib.SMTP("smtp.gmail.com",587)
-server.starttls()
-server.login( 'kumabaskerice@gmail.com', #password )
-server.sendmail( 'Your Team', #number, #message)
+
+def sendText (numbers, message):
+    for i in range len(numbers):
+        server.sendmail('Your Team', numbers[i], message)
